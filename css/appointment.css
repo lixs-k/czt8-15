@@ -1,0 +1,183 @@
+.container{
+	width:100%;
+	background-color: #f1f5fe;
+	margin-top:4px;
+}
+.con_wrap{
+	width:1000px;
+	margin:0 auto;
+	padding: 50px 0;
+}
+.appoint_wrap{
+	width:1000px;
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+.appoint_wrap h4{
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.appoint_wrap .title{
+	width: 100%;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	box-sizing: border-box;
+	position: relative;
+	padding: 0 30px;
+}
+.appoint_wrap .title:before{
+	content: "";
+	width:4px;
+	display: inline-block;
+	height: 18px;
+	background-color: #43adfb;
+	position: absolute;
+	left:20px;
+	top:50%;
+	transform: translateY(-50%);
+}
+.time_head{
+	width: 350px;
+	text-align: center;
+	margin: 20px auto;
+}
+.time_head .time_text{
+	width: 140px;
+	display: inline-block;
+}
+.time_head .left_btn, .time_head .right_btn{
+	border:1px solid #43adfb;
+	border-radius: 20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	color: #43adfb;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	font-family: "宋体";
+	text-align: center;
+	line-height: 20px;
+	margin:0 10px;
+	cursor: pointer;
+}
+.time_con{
+	width: 350px;
+	margin: 0 auto 20px;
+}
+.time_con li{
+	width: 50px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+}
+.time_con .date li{
+	cursor: pointer;
+}
+.time_con .date .current{
+	border:1px solid #999;
+	background-color: #eee;
+}
+.time_con .date li.active{
+	background-color:#43adfb;
+	color: #fff;
+}
+.appoint_btn{
+	outline: none;
+	border: none;
+	background-color: #43adfb;
+	padding: 10px 40px;
+	color: #fff;
+	margin:60px auto 10px;
+	display: block;
+	cursor: pointer;
+	font-size: 14px;
+}
+.appoint_btn:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=80); /* IE */  
+	-moz-opacity:0.8; /* 老版Mozilla */  
+	-khtml-opacity:0.8; /* 老版Safari */  
+}
+.appoint_wrap .number{
+	width: 720px;
+	margin:20px auto;
+}
+.appoint_wrap .number li{
+	width:240px;
+	float: left;
+	height: 80px;
+	text-align: center;
+	box-sizing: border-box;
+	border:1px solid #ddd;
+	margin-right: -1px;
+	margin-bottom: -1px;
+	cursor: pointer;
+}
+.appoint_wrap .number li>div{
+	line-height: 40px;
+}
+.appoint_wrap .number li>p{
+	font-size: 14px;
+}
+.appointed{
+	background-color: #eee;
+	color: #999;
+}
+.appoint_wrap .number li.active{
+	background-color: #43adfb;
+	color: #fff
+}
+.left_btn.disactive{
+	border: 1px solid #999;
+	background-color: #eee;
+	color: #999;
+}
+/*提示框*/
+.modal_wrap{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,.5);
+	display: none;
+}
+.modal_wrap .modal{
+	width: 340px;
+	height: 160px;
+	background-color: #fff;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	overflow: hidden;
+}
+.modal_wrap .modal .title{
+	background-color: #43adfb;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+}
+.modal_wrap .modal .context{
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 14px;
+	color: #555;
+}
+.modal_wrap .modal .close{
+	position: absolute;
+	top:8px;
+	right: 10px;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	font-size:20px;
+}

@@ -1,0 +1,110 @@
+.container{
+	width:100%;
+	background-color: #f1f5fe;
+	margin-top:2px;
+}
+.con_wrap{
+	width:1200px;
+	margin:0 auto;
+	padding: 50px 0;
+}
+.feedback_wrap{
+	width: 1000px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 50px 20px 20px;
+	box-sizing: border-box;
+	border:1px solid #ddd;
+}
+.feedback_left,.feedback_right{
+	width: 50%;
+	float: left;
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+.feedback_right ul li{
+	 margin-top:10px;
+	 width: 180px;
+	 padding-bottom: 20px;
+	 border-bottom: 1px solid #ddd;
+}
+.feedback_right ul li>h5{
+	font-size: 14px;
+}
+.feedback_right ul li>p{
+	font-size: 14px;
+	color: #555;
+}
+.feedback_right .right_img{
+	margin: 30px 0;
+}
+/* .feedback_right .right_img i{
+	font-size: 80px;
+	color:#999;
+} */
+.feedback_right .right_img img{
+	width:140px;
+}
+.feedback_left{
+	color: #555;
+	box-sizing: border-box;
+	font-size: 14px!important;
+}
+.feedback_left label, .feedback_left .label{
+	width: 100%;
+	display: inline-block;
+	margin-top:10px;
+}
+.feedback_left label>span,.feedback_left .label>span{
+	display: block;
+	width: 100px;
+	text-align: right;
+	float:left;
+	margin-right: 4px;
+	line-height: 28px;
+	font-size: 14px!important;
+}
+.feedback_left input[type='text'] {
+	line-height: 28px;
+	height:28px;
+	width: 200px;
+	box-sizing:border-box;
+	outline: none;
+	padding: 0 4px;
+	font-size: 14px!important;
+}
+.feedback_left input[type='checkbox']{
+	margin: 10px 0;
+}
+.feedback_left label>select{
+	width: 200px;
+	line-height: 32px;
+	height: 32px;
+	display: inline-block;
+	outline: none;
+	font-size: 14px!important;
+}
+.feedback_left label>select>option{
+	font-size: 14px;
+}
+.feedback_left .check_box{
+	float: left;
+	font-size: 14px!important;
+}
+.suggest_btn{
+	display: block;
+	padding: 10px 40px;
+	background-color: #43adfb;
+	outline: none;
+	border: none;
+	color: #fff;
+	margin: 20px auto;
+	cursor: pointer;
+	font-size: 14px!important;
+}
+.suggest_btn:hover{
+	opacity: 0.8;
+}
+.feedback_left input[type='checkbox'] {
+	margin-right: 8px;
+}

@@ -1,0 +1,95 @@
+.container{
+	width:100%;
+	background-color: #f1f5fe;
+	padding: 50px 0;
+	margin-top:2px;
+}
+.register_con{
+	width:1000px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 50px 0 30px 0;
+	box-sizing: border-box;
+}
+.register_form{
+	width: 520px;
+	margin: 0px auto;
+}
+.register_form label{
+	display: inline-block;
+	height: 60px;
+	width: 100%;
+	font-size: 14px;
+	position: relative;
+}
+.register_form label input{
+	width: 400px;
+	height: 38px;
+	display: inline-block;
+	border:1px solid #999;
+	outline: none;
+	padding: 0 8px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.register_form label .tig{
+	line-height: 28px;
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.register_form label .tig>i{
+	color: red;
+	margin-right: 6px;
+	font-style: normal;
+}
+.register_form label .error_msg{
+	font-size: 14px;
+	color:#43adfb;
+	margin:0 0 0 120px;
+}
+.register_form label .code{
+	display: inline-block;
+	height: 36px;
+	width: 130px;
+	position: absolute;
+	right: 7px;
+	top:1px;
+	background-color: #ddd;
+	line-height: 38px;
+	text-align: center;
+	 font-size: 14px;
+}
+.register_form input[type='checkbox']{
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+}
+.register_form label>a{
+	color: #2075f6;
+	font-size: 14px;
+}
+.register_form label>a:hover{
+	text-decoration: underline;
+}
+.register_btn{
+	width: 400px;
+	height: 40px;
+	background-color: #2075f6;
+	outline: none;
+	border:none;
+	color: #fff;
+	float: right;
+	line-height: 40px;
+	margin-right: 4px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.register_btn:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=80); /* IE */  
+	-moz-opacity:0.8; /* 老版Mozilla */  
+	-khtml-opacity:0.8; /* 老版Safari */  
+}

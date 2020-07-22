@@ -1,0 +1,149 @@
+.container{
+	width:100%;
+	background-color: #f1f5fe;
+	margin-top:2px;
+}
+.con_wrap{
+	width:1200px;
+	margin:0 auto;
+	padding: 50px 0;
+}
+.class_wrap{
+	width: 1000px;
+	background-color: #fff;
+	margin:0 auto;
+	padding: 20px 0;
+}
+/*购物车*/
+.food_table{
+	text-align: center;
+	line-height: 40px;
+	margin:0 auto;
+	border-collapse: collapse;
+	border:1px solid #ddd;
+	color: #7a7a7a;
+}
+.food_table td,.food_table th{
+	border:1px solid #ddd;
+	font-style: normal;
+	color:#555;
+}
+.food_table th{
+	color: #999;
+	font-weight: normal;
+	font-size: 14px;
+}
+.food_table .th_0{
+	width: 50px;
+}
+.food_table .th_1{
+	width:360px; 
+}
+.food_table .th_2{
+	width:140px; 
+}
+.food_table .th_3{
+	width:140px; 
+}
+.food_table .th_4{
+	width:200px; 
+}
+
+.foodcar_item .msg{
+	overflow: hidden;
+}
+.foodcar_item .msg img{
+	float: left;
+	width: 150px;
+	display: inline-block;
+	border:1px solid #000;
+	margin: 16px;
+}
+.foodcar_item .sub_msg{
+	margin-top: 28px;
+	font-size: 14px;
+	text-align: left;
+}
+.foodcar_item .sub_msg p{
+	line-height: 28px;
+}
+.foodcar_item .sub_msg p>a{
+	font-size: 14px;
+	color: #999;
+}
+.foodcar_item .sub_msg p:nth-of-type(2)>a:hover{
+	color: #43adfb;
+	text-decoration: underline;
+}
+.foodcar_item .sub_msg .title{
+	font-size: 16px;
+}
+.foodcar_item .sub_msg .title>a{
+	font-size: 16px;
+	color: #000;
+}
+.foodcar_item .sub_msg .title>a:hover{
+	color: #43adfb;
+}
+/* 复选框 */
+.check{
+	margin: 20px 50px;
+	font-size: 14px;
+}
+.check input[type='checkbox']{
+	background-color: #fff!important;
+	width: 12px;
+	height: 12px;
+	outline: none;
+	vertical-align: middle;
+	font-size: 14px!important;
+}
+.check label>span{
+	font-size: 14px;
+}
+.check .del{
+	cursor: pointer;
+	font-size: 14px!important;
+}
+.check .del:hover{
+	color: red;
+}
+.sum_price{
+	float: right;
+}
+.sum_price button{
+	background-color: #fff;
+	height: 30px;
+	width: 80px;
+	outline: none;
+	border:1px solid #999;
+	font-size: 14px!important;
+}
+.sum_price button:hover{
+	border:1px solid red;
+	color: red;
+	cursor: pointer;
+}
+.sum_price>span{
+	margin-right: 10px;
+	font-size: 14px!important;
+}
+.sum_price>span>.sum{
+	color: red;
+}
+.operate button{
+	outline: none;
+	border:none;
+	background-color: #43adfb;
+	color: #fff;
+	margin-right: 10px;
+	padding: 8px 30px;
+	cursor: pointer;
+	font-size: 14px!important;
+}
+.operate button:hover{
+	filter:alpha(opacity=80); /* IE */  
+	-moz-opacity:0.8; /* 老版Mozilla */  
+	-khtml-opacity:0.8; /* 老版Safari */  
+	opacity: 0.8;
+}

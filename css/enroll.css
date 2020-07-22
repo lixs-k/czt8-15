@@ -1,0 +1,101 @@
+.container{
+	background-color: #f1f5fe;
+	margin-top: 2px;
+}
+.con_wrap{
+	width:1200px;
+	margin:0 auto;
+	padding: 50px 0;
+}
+.shop_list ul .list_item{
+	width: 260px;
+	margin:20px;
+	border:1px solid #ddd;
+	box-sizing: border-box;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	list-style: none;
+	float: left;
+	background-color: #fff;
+	padding: 10px;
+}
+.list_item .shop_img{
+	width:100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.list_item .shop_img img{
+	width:100%;
+}
+
+.list_item .shop_info{
+	width:100%;
+	box-sizing: border-box;
+	padding: 8px 0;
+	overflow: hidden;
+	text-align: center;
+}
+.shop_info .title{
+	line-height: 42px;
+	height: 42px;
+}
+.shop_info .school{
+	font-size: 14px;
+	line-height: 30px;
+	color: #999;
+}
+.shop_info .school a{
+	color: #999;
+	font-size: 14px!important;
+}
+.shop_info .school a:hover{
+	text-decoration: underline;
+	color: #43adfb;
+}
+.shop_info .title a{
+	color: #000;
+}
+.shop_info .title a:hover{
+	color: #43adfb;
+}
+.shop_info .price{
+	color: #fb590a;
+	display: inline-block;
+	font-weight: bold;
+	margin:4px 0;
+}
+.shop_info .btn{
+	width:100%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px!important;
+}
+.shop_info .btn button{
+	outline: none;
+	border:none;
+	margin: 10px 0;
+	font-size: 14px;
+	background-color: #43adfb;
+	padding: 8px 20px;
+	width: 110px;
+	color:#fff;
+}
+.shop_info .btn button:hover{
+	filter:alpha(opacity=80); /* IE */  
+	-moz-opacity:0.8; /* 老版Mozilla */  
+	-khtml-opacity:0.8; /* 老版Safari */  
+	opacity: 0.8;
+	cursor: pointer;
+}
+.shop_info .btn button.hasadd{
+	background: #ddd;
+	color:#999;
+}
+.list_item:hover .shade{
+	display: block;
+}
+.list_item:hover{
+	border:1px solid #43adfb!important;
+}
